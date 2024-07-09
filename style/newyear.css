@@ -138,3 +138,41 @@ body{
     align-items: center;
     width: 50%;
 }
+
+/* vanue style  */
+.vanue-section-container{
+    width: 1320px;
+    height: 450px;
+    margin: 100px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    border-radius: 8px;
+    background-color: #FF0000;
+    background-image: linear-gradient(rgb(244, 214, 209) , white);
+}
+.vanue-section-container p {
+    font-family: Inter ;
+    font-size: 32px;
+    font-weight: 600;
+}
+.vanue{
+    color: #FF0000;
+}
+.btn-join{
+    background-color: #FF0000;
+    color: white;
+    margin-top: 50px;
+    width: 167px;
+    height: 56px;
+    border-radius: 5px;
+    margin: 16px 32px;
+    font-family: Inter ;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
