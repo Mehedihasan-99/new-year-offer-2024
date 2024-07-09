@@ -6,6 +6,18 @@
 body{
     font-family: "Merriweather", serif;
 }
+/* shared style  */
+.btn-primary {
+     color: #FFFFFF;
+     font-family: Inter;
+     font-size: 20px;
+     font-weight: 700;
+     margin-right: 460px;
+     margin-top: 30px;
+}
+
+
+
 /* banner style  */
 .banner-container{
     max-width: 1320px;
@@ -21,12 +33,12 @@ body{
     background-blend-mode: overlay;
 }
 .banner-content{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-height: 600px;
-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    color: white;
 }
 .banner-content p {
     font-size: 32px;
@@ -53,7 +65,7 @@ color: white;
 .first-section-content{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
 }
 .first-section-content h1{
@@ -79,4 +91,50 @@ color: white;
     width: 100%;
     margin-top: 48px;
 
+}
+/* midnight container style  */
+.midnight-section-container{
+    max-width: 1320px;
+    min-height: 600px;
+    margin: 0 auto;
+    border: 2px solid green;
+    margin-top: 20px;
+    border-radius: 16px;
+    display: flex;
+    background-image: url(../images/Vectorrr.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-blend-mode:overlay;}
+.leftside-content{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    margin: 120px ;
+    width: 50%;
+    height: 600;
+
+}
+.leftside-content h1{
+    font-family:Merriweather;
+    font-size: 64px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 20px;
+       
+}
+.leftside-content p{
+    font-family:Inter;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF ;
+}
+.rightside-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
 }
